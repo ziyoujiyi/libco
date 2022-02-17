@@ -19,6 +19,7 @@ set(SOURCE_FILES
         co_hook_sys_call.cpp
         co_routine.cpp
         coctx.cpp
+        co_comm.cpp
         coctx_swap.S)
 
 # Add static and shared library target
@@ -52,4 +53,5 @@ add_example_target(echosvr)
 add_example_target(poll)
 add_example_target(setenv)
 add_example_target(specific)
+add_example_target(test)
 add_example_target(thread)
